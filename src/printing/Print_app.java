@@ -1,4 +1,6 @@
 package printing;
+import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Print_app {
 
@@ -42,7 +44,49 @@ public class Print_app {
  }
 }
 	         */
-	     
+	        
+	        
+	        /*Math Two*/
+	        
+	        double mynumber=1.7938 ,myothernumber;
+	        myothernumber=mynumber;
+	        
+	        /* Change Program*/
+	        
+	        /*
+	         public class ChangeProgram {
+ public static void main(String[] args) {
+ int x;
+ double y,z;
+ 
+ x = 5;
+ y = 9;
+ 
+ z = x * y;
+
+ System.out.println("The product is " + z);
+ }
+} 
+	         
+	         
+	  
+	         * */
+	        
+	 /*  Getting and Storing User Input */
+	 
+	        //Scanner keyboard = new Scanner(System.in); 
+	        String myAnswer =  "P Sherman 42 Wallaby Way Sydney"; 
+	        String firstInitial,lastName, houseNumber,streetName,streetType,city;
+	        
+	        Scanner scannerAgain = new Scanner( myAnswer).useDelimiter(" ");
+	        firstInitial=scannerAgain.next();
+	        lastName=scannerAgain.next();
+	        houseNumber = scannerAgain.next();
+	        streetName= scannerAgain.next();
+	        streetType=scannerAgain.next();
+	        city=scannerAgain.next();
+	        System.out.print(firstInitial + " " + lastName + " " + houseNumber + " "); 
+	        System.out.println(streetName + " " + streetType + " " + city);
 	}
 
 }
