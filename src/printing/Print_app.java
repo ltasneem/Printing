@@ -87,6 +87,39 @@ public class Print_app {
 	        city=scannerAgain.next();
 	        System.out.print(firstInitial + " " + lastName + " " + houseNumber + " "); 
 	        System.out.println(streetName + " " + streetType + " " + city);
+	        
+	        
+	        /*String completion assignment*/
+	        
+	        /*String name;
+	        String breed;
+	        int age;
+	        Scanner keyboard = new Scanner(System.in);
+	        System.out.print( "Greetings. What is your pet's name? " );
+	        name = keyboard.next();
+	 
+	        System.out.print( "What kind of animal is " + name + "? " );
+	        breed = keyboard.next();
+	        System.out.print( "How old is " + name + "? ");
+	       
+	       age =keyboard.nextInt();
+
+	       System.out.println( name + " is your " + breed + " and it is " + age );*/
+	        
+	        
+	        
+	       
+	       /*Escape Sequences in Java   Cost      Quantity   Total $1,000.00   4       $4,000.00
+$   50.00   8         $400.00
+______________________________
+TOTAL:      12      $4,400.00*/
+	        
+	        System.out.println("Cost" + "\t"+ "Quantity"+"\t"+ "Total");
+	        System.out.println("$1,000.00" + "\t"+ "4"+"\t"+ "$4,000.00");
+	        System.out.println("$50.00.00" + "\t"+ "8"+"\t"+ "$400.00");
+	        System.out.println("________________________________________");
+	        System.out.println("TOTAL" + "\t"+ "12"+"\t"+ "$4,400.00");
+	       
 	}
 
 }
