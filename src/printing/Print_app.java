@@ -122,8 +122,8 @@ TOTAL:      12      $4,400.00*/
 	        
 	        /*Special Characters Assignment*/
 	        
-	        String message1 = "\\/\\/\\/\\/\\/\r\t\b";
-	        String message2 = "\"";
+	        String message1 = "message1 = \\/\\/\\/\\/\\/\r\t\b";
+	        String message2 = "message2 = \"";
 	        System.out.println(message1 + message2);
 	       
 	}
