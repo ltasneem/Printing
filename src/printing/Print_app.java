@@ -119,6 +119,12 @@ TOTAL:      12      $4,400.00*/
 	        System.out.println("$50.00.00" + "\t"+ "8"+"\t"+ "$400.00");
 	        System.out.println("________________________________________");
 	        System.out.println("TOTAL" + "\t"+ "12"+"\t"+ "$4,400.00");
+	        
+	        /*Special Characters Assignment*/
+	        
+	        String message1 = "\\/\\/\\/\\/\\/\r\t\b";
+	        String message2 = "\"";
+	        System.out.println(message1 + message2);
 	       
 	}
 
