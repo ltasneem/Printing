@@ -4,6 +4,7 @@ public class Print_app {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*printing atm  : More printing*/
 	       System.out.println("+--------------------------------------+");
 	       System.out.println("|      Java Bank ATM Receipt           |");
 	       System.out.println("|      Wednesday, December 2, 2015     |");
@@ -21,8 +22,26 @@ public class Print_app {
 	       System.out.println("|                                      |");
 	       System.out.println("+--------------------------------------+");
 	       
+	       /* A program for yourself*/
+	       
 	        System.out.println("Lubaba Nuzhat Tasneem");
 	        System.out.println("27");
+	        
+	        /* Debug this program */
+	        
+	        /*
+	         public class DebugProg {
+ public static void main(String[] args) {
+ double x, y;
+ 
+ x = 3.1415;
+ y = 3.64;
+ 
+ System.out.println("pi is approximately " + x);
+ System.out.println("My GPA was " + y);
+ }
+}
+	         */
 	     
 	}
 
